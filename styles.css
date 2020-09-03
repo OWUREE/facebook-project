@@ -1,0 +1,135 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', cursive;
+    font-size: 16pt;
+    background-color: #efcfef;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px black;
+    padding:15pt;
+    margin:0;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:150%;
+    text-transform:uppercase;
+    
+}
+.design{
+    display:flex;
+    justify-content:center ;
+    background-color:#2222a5;
+    height:50pt;
+    
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#section2 h2 {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.selected {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
+}
+h2{
+    text-transform:capitalize;
+    margin-top:50;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+    min-height:100px;
+    min-width:100px;
+}
+#form{
+    font-size:14px;
+    height:20px;
+    width:250px;
+}
+.textbox{
+   font-size:14px;
+   height:20px;
+   width:250px; 
+}
+.submit {
+    background-color:#2a6ff7;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin-top:15px;
+    font-weight: bold;
+}
+ #submit {
+    background-color:green;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    margin-top:15px;
+    outline: none;
+    font-weight: bold;
+    text-align:center;
+}
+.submit:hover {
+    background-color: #43a09d;
+}
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    color:purple;    
+}
+a:visited{
+    color:green;    
+}
+h4{
+    text-align:center ;
+    margin:0;
+}
+.more_info ul {
+    float:left;
+    width:50%;
+    list-style-type:none;
+    margin-top:2px;
+    color:black;
+}
+.more_info ol{
+    list-style-type:none;
+}
+.copyright {
+    font-size: 16pt;
+    padding-bottom: 10px;
+    margin-bottom:5px;
+    color: grey;
+}
